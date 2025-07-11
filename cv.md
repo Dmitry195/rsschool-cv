@@ -54,7 +54,7 @@ const sumArray = arr => {
     - JS/FE Pre-School 2025Q2
 
     
-    - JavaScript [Learn JS](https://learn.javascript.ru/)
+    - JavaScript Learn JS - https://learn.javascript.ru/
 
 ## English:
     English knowledge level: beginner.
