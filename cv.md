@@ -43,4 +43,5 @@ const sumArray = arr => {
 }
 ```
 
-
+## English:
+    English knowledge level: beginner.
