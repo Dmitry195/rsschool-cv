@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "Michroma";
+    src: url("./assets/fonts/Michroma-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Bitcount";
+    src: url("./assets/fonts/BitcountGridDouble-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
 * {
     margin: 0 auto;
     padding: 0;
