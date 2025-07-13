@@ -4,17 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RS school CV</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header class="title">
-        <h1 class="name">Dmitry Sitnikov</h1>
-        <img src="./image-avatar.jpg" alt="" width="200px">
+    <header>
+        <nav>
+            <div class="nav-menu">
+                <a class="nav-item" href="#contacts">Contacts</a>
+                <a class="nav-item" href="#about">About</a>
+                <a class="nav-item" href="#skills">Skills</a>
+                <a class="nav-item" href="#code">Code</a>
+                <a class="nav-item" href="#courses">Courses</a>
+                <a class="nav-item" href="#english">English</a>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="main-title">
+                <h1 class="name">Dmitry Sitnikov</h1>
+                <img class="img-av" src="./assets/img/img-avatar.jpg" alt="It's me">
+            </div>
+        </div>
     </header>
-    <section class="contacts"></section>
-    <section class="about"></section>
-    <section class="skills"></section>
-    <section class="code"></section>
-    <section class="courses"></section>
-    <section class="english"></section>
+    <main>
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <h2 class="section-title">Contacts</h2>
+                <div class="contacts-item">
+                    <a href="tel:+79525739957">Phone: +7-952-573-99-57</a>
+                    <a href="mailto:dmitrysitnikov1995@gmail.com">E-mail:dmitrysitnikov1995@gmail.com</a>
+                    <a href="">Discord:@Dmitry195</a>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About</h2>
+                <p class="about-text">I am studying programming, or more precisely Front-end development as a hobby, I want to turn this hobby into a profession, I hope RS-school will help me with this. I have no experience in this field, but I hope to make up for it during my internship and further work in this field. I studied on my own without courses</p>
+            </div>
+        </section>
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="icon">
+                    <div class="icon-item">
+                        <img class="icon-item-img" src="./assets/img/icons/HTML5_logo_and_wordmark.svg.png" alt="">
+                    </div>
+                    <div class="icon-item">
+                        <img class="icon-item-img" src="./assets/img/icons/CSS3_logo_and_wordmark.svg (1).png" alt="">
+                    </div>
+                    <div class="icon-item">
+                        <img class="icon-item-img" src="./assets/img/icons/Octicons-mark-github.svg" alt="">
+                    </div>
+                    <div class="icon-item">
+                        <img class="icon-item-img" src="./assets/img/icons/Git_icon.svg.png" alt="">
+                    </div>
+                    <div class="icon-item">
+                        <img class="icon-item-img" src="./assets/img/icons/Figma-logo.svg.png" alt="">
+                    </div>
+                    <div class="icon-item">
+                        <img class="icon-item-img" src="./assets/img/icons/Tilda_Logo.png" alt="">
+                    </div>
+                    <div class="icon-item">
+                        <img class="icon-item-img" src="./assets/img/icons/Javascript-shield.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="code" class="code">
+            <div class="container">
+                <h2 class="section-title">Example Code</h2>
+                <p class="task">Sum all the numbers of a given array ( cq. list ), except the highest and the lowest element ( by value, not by index! ). The highest or lowest element respectively is a single element at each edge, even if there are more than one with the same value.</p>
+                <pre class="code-text">const sumArray = arr => {
+    if (arr == null) {
+        return 0
+    } else if (arr.length < 2) {
+        return 0
+    } else {
+        arr = arr.sort((a, b) => a - b);
+        let total = 0;
+        for (let i = 1; i < arr.length -1; i++) {
+            total += arr[i]
+        }
+        return total
+    }
+}</pre>
+            </div>
+        </section>
+        <section id="courses" class="courses">
+            <div class="container">
+                <h2 class="section-title">Courses</h2>
+                <div class="courses-item">
+                    <p class="courses-text">JS/FE Pre-School 2025Q2</p>
+                </div>
+                <div class="courses-item">
+                    <p class="courses-text">JavaScript Learn JS - <a class="learnjs" href="https://learn.javascript.ru/">https://learn.javascript.ru/</a></p>
+                </div>
+        </section>
+        <section id="english" class="english">
+            <div class="container">
+                <h2 class="section-title">English</h2>
+                <p class="english-text">English knowledge level: beginner.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-items">
+                <p class="footer-text">2025 by Dmitry Sitnikov</p>
+                <a class="footer-link" href="https://github.com/Dmitry195">GitHub</a>
+                <a class="logo" href="https://rs.school/courses/javascript-ru"><img src="./assets/img/logo/logo-rsschool3.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

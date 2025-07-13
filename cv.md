@@ -11,9 +11,13 @@ Discord: @Dmitry195
 ***
 
 ## About:
-    I am studying programming, or more precisely Front-end development as a hobby, I want to turn this hobby into a profession, I hope RS-school will help me with this.
+I am studying programming, or more precisely Front-end development as a hobby, I want to turn this hobby into a profession, 
     
-     I have no experience in this field, but I hope to make up for it during my internship and further work in this field.
+I hope RS-school will help me with this.
+    
+I have no experience in this field, but I hope to make up for it during my internship and further work in this field.
+
+I studied on my own without courses
 
 ***
 

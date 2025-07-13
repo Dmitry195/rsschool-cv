@@ -1,5 +1,215 @@
+@font-face {
+    font-family: "Michroma";
+    src: url("./assets/fonts/Michroma-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Bitcount";
+    src: url("./assets/fonts/BitcountGridDouble-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Bitcount";
+    text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+    background-color: black;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-menu {
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    color: white;
+    font-size: 22px;
+    transition: .3s;
+}
+
+.nav-item:hover {
+    scale: 1.1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-title {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name {
+    font-size: 60px;
+}
+
+.img-av {
+    border-radius: 250px;
+}
+
+main {
+}
+
+.contacts {
+    color: white;
+    margin-top: 20px;
+    background-color: black;
+    padding: 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 46px;
+}
+
+.contacts-item {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+}
+
+.contacts-item  a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: "Michroma";
+    transition: .4s;
+}
+
+.contacts-item a:hover {
+    scale: 1.1;
+}
+
+.about {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.about-text {
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    font-family: "Michroma";
+    font-size: 30px;
+}
+
+.skills {
+    margin-top: 40px;
+}
+
+.icon-item-img {
+    width: 200px;
+}
+
+.icon {
+    margin-top: 100px;
+    display: flex;
+    column-gap: 80px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.code {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.task {
+    font-family: "Michroma";
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.code-text {
+    margin-top: 40px;
+    font-family: "Michroma";
+    font-size: 25px;
+}
+
+.courses {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.courses-item {
+    margin-top: 20px;
+}
+
+.courses-text{
+    font-family: "Michroma";
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.courses-text a {
+    font-family: "Michroma";
+    text-decoration: none;
+    color: darkred;
+}
+
+.english {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.english-text {
+    margin-top: 20px;
+    font-family: "Michroma";
+    text-align: center;
+    font-size: 30px;
+}
+
+footer {
+    background-color: black;
+    height: 80px;
+    padding: 15px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px;
+    background-color: white;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-text {
+    color: white;
 }
