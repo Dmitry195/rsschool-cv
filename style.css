@@ -137,5 +137,79 @@ main {
 }
 
 .code {
+    padding: 20px;
     margin-top: 40px;
+}
+
+.task {
+    font-family: "Michroma";
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.code-text {
+    margin-top: 40px;
+    font-family: "Michroma";
+    font-size: 25px;
+}
+
+.courses {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.courses-item {
+    margin-top: 20px;
+}
+
+.courses-text{
+    font-family: "Michroma";
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.courses-text a {
+    font-family: "Michroma";
+    text-decoration: none;
+    color: darkred;
+}
+
+.english {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.english-text {
+    margin-top: 20px;
+    font-family: "Michroma";
+    text-align: center;
+    font-size: 30px;
+}
+
+footer {
+    background-color: black;
+    height: 80px;
+    padding: 15px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px;
+    background-color: white;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-text {
+    color: white;
 }
