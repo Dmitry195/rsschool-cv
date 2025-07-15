@@ -40,6 +40,7 @@ nav {
     max-width: 1200px;
     justify-content: space-between;
     align-items: center;
+    list-style-type: none;
 }
 
 .nav-item {
@@ -93,6 +94,7 @@ main {
     display: flex;
     row-gap: 20px;
     flex-direction: column;
+    list-style-type: none;
 }
 
 .contacts-item  a{
@@ -134,6 +136,7 @@ main {
     column-gap: 80px;
     flex-wrap: wrap;
     justify-content: space-around;
+    list-style-type: none;
 }
 
 .code {
