@@ -216,3 +216,16 @@ footer {
 .footer-text {
     color: white;
 }
+
+@media (max-width: 720px) {
+    .name {
+        font-size: 40px;
+    }
+    .main-title {
+        flex-direction: column;
+    }
+    .img-av {
+        display: block;
+        width: 250px;
+    }
+}
