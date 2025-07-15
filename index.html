@@ -77,12 +77,12 @@
                 <pre class="code-text">const sumArray = arr => {
     if (arr == null) {
         return 0
-    } else if (arr.length < 2) {
+    } else if (arr.length &lt 2) {
         return 0
     } else {
         arr = arr.sort((a, b) => a - b);
         let total = 0;
-        for (let i = 1; i < arr.length -1; i++) {
+        for (let i = 1; i &lt arr.length -1; i++) {
             total += arr[i]
         }
         return total
