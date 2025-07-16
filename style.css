@@ -29,8 +29,8 @@ body {
 nav {
     background-color: black;
     height: 80px;
-    position: fixed;
     width: 100%;
+    position: fixed;
 }
 
 .nav-menu {
@@ -38,7 +38,7 @@ nav {
     display: flex;
     height: 100%;
     max-width: 1200px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     list-style-type: none;
 }
@@ -103,6 +103,7 @@ main {
     color: white;
     font-family: "Michroma";
     transition: .4s;
+    width: 100%;
 }
 
 .contacts-item a:hover {
@@ -137,6 +138,31 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
+}
+
+.projects {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.projects-link {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 40px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    font-family: "Michroma";
+    font-size: 24px;
+    background-color: black;
+    transition: .3s;
+}
+
+.projects-link:hover {
+    background-color: grey;
+    
 }
 
 .code {
@@ -199,8 +225,9 @@ footer {
 
 .footer-items {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    column-gap: 20px;
 }
 
 .logo img{
@@ -221,11 +248,95 @@ footer {
     .name {
         font-size: 40px;
     }
+    .section-title {
+        font-size: 30px;
+    }
     .main-title {
         flex-direction: column;
     }
     .img-av {
         display: block;
         width: 250px;
+    }
+    .contacts-item a{
+        font-size: 20px;
+    }
+    .nav-item {
+        font-size: 18px;
+    }
+    .icon-item-img {
+        width: 150px;
+    }
+    .code-text {
+        font-size: 20px;
+    }
+    .courses-item  p, a{
+        font-size: 18px;
+    }
+    .nav-menu {
+        flex-wrap: wrap;
+    }
+    .about-text {
+        font-size: 20px;
+    }
+    .task {
+        font-size: 18px;
+    }
+    .english-text {
+        font-size: 18px;
+    }
+    .projects-link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 540px) {
+    .nav-item {
+        font-size: 14px;
+    }
+     .contacts-item a{
+        font-size: 14px;
+    }
+    .code-text {
+        font-size: 16px;
+    }
+     .task {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .name {
+        font-size: 30px;
+    }
+    .section-title {
+        font-size: 24px;
+    }
+    .nav-item {
+        font-size: 12px;
+    }
+    .contacts-item a{
+        font-size: 10px;
+    }
+    .code-text {
+        font-size: 12px;
+    }
+     .task {
+        font-size: 12px;
+    }
+    .icon-item-img {
+        width: 100px;
+    }
+    .about-text {
+        font-size: 12px;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .english-text {
+        font-size: 14px;
+    }
+    .projects-link {
+        font-size: 10px;
     }
 }
