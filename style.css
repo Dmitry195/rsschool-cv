@@ -30,6 +30,7 @@ nav {
     background-color: black;
     height: 80px;
     width: 100%;
+    position: fixed;
 }
 
 .nav-menu {
@@ -137,6 +138,31 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
+}
+
+.projects {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.projects-link {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 40px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    font-family: "Michroma";
+    font-size: 24px;
+    background-color: black;
+    transition: .3s;
+}
+
+.projects-link:hover {
+    background-color: grey;
+    
 }
 
 .code {
@@ -259,6 +285,9 @@ footer {
     .english-text {
         font-size: 18px;
     }
+    .projects-link {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 540px) {
@@ -306,5 +335,8 @@ footer {
     }
     .english-text {
         font-size: 14px;
+    }
+    .projects-link {
+        font-size: 10px;
     }
 }
